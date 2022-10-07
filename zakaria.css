@@ -114,6 +114,26 @@ div#itemDetailPage {
   height: fit-content;
   font-size: 10.5vw;
 } */
+.layout-mobile #itemDetailPage:not(.noBackdrop) .detailPagePrimaryContainer{
+  margin: 0;
+  padding: 0;
+  height: 10vh;
+}
+
+:not(.hide) + .detailPageWrapperContainer .parentName,
+:not(.hide) + .detailPageWrapperContainer .parentNameLast,
+:not(.hide) + .detailPageWrapperContainer .parentName > *,
+:not(.hide) + .detailPageWrapperContainer .parentNameLast > * {
+  font-size: 0;
+  display: block;
+  position: fixed;
+  background: transparent;
+  width: 35vw;
+  height: 20vh;
+  top: 10vh;
+  left: 5vw;
+}
+
 
 #itemDetailPage .detailLogo.hide {
   display: none !important;
