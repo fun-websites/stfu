@@ -101,7 +101,7 @@ div#itemDetailPage {
   margin: 0.5em 0 !important;
 }
 
-/* .layout-mobile #itemDetailPage .detailLogo {
+ .layout-mobile #itemDetailPage .detailLogo {
   hide: none !important;
 }
 
@@ -113,28 +113,7 @@ div#itemDetailPage {
   height: -moz-fit-content;
   height: fit-content;
   font-size: 10.5vw;
-} */
-.layout-mobile #itemDetailPage:not(.noBackdrop) .detailPagePrimaryContainer{
-  margin: 0;
-  padding: 0;
-  height: 10vh;
-}
-
-:not(.hide) + .detailPageWrapperContainer .parentName,
-:not(.hide) + .detailPageWrapperContainer .parentNameLast,
-:not(.hide) + .detailPageWrapperContainer .parentName > *,
-:not(.hide) + .detailPageWrapperContainer .parentNameLast > * {
-  font-size: 0;
-  display: block;
-  position: fixed;
-  background: transparent;
-  width: 35vw;
-  height: 20vh;
-  top: 10vh;
-  left: 5vw;
-}
-
-
+} 
 #itemDetailPage .detailLogo.hide {
   display: none !important;
 }
